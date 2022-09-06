@@ -8,7 +8,7 @@ const Footer = () => {
     <footer>
       <div className={styles.socials_container}>
         <h5>Hit us up on our socials!</h5>
-        <div>
+        <div className={styles.icons}>
           <a href="https://www.devmountain.com" target="_blank" className={styles.cirlce}>
             <ImFacebook size="1.5em" color="#3f3f3f" />
           </a>

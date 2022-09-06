@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import styles from "./NewRecipe.module.css";
 import { Formik } from "formik";
-import axios from "axios";
+// import axios from "axios";
 
 const NewRecipeScreen = () => {
   const [ingredients, setIngredients] = useState([]);

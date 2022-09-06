@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, {useEffect, useState} from 'react'
 import AdBanner from './AdBanner'
+import RecipeHolder from './RecipeHolder'
 
 const HomeScreen = () => {  
 
@@ -20,7 +21,7 @@ const HomeScreen = () => {
   return (
     <div>
       <AdBanner />
-      {/* Much code from Part 2 will be placed around here. Do your best! */}
+      <RecipeHolder recipes={recipes} />
     </div>
   )
 }

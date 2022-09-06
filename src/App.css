@@ -21,3 +21,46 @@ time, mark, audio, video {
 }
 
 /* --------- Begin your CSS Below here --------- */
+
+
+:root {
+	--primary-color: 25, 70%;
+	--l: 55%;
+	--secondary-color: 180, 25%, 50%;
+	--tertiary-color: 0, 0%, 25%;
+  }
+  
+  html {
+	box-sizing: border-box;
+  }
+  
+  *{
+	font-family: 'Inter', sans-serif;
+  }
+  
+  button {
+	height: 45px;
+	min-width: 120px;
+	font-size: 25px;
+	border: none;
+	border-radius: 2px;
+  }
+  
+  .blue-btn {
+	background-color: rgb(50, 136, 144);
+	color: white;
+  }
+  .orange-btn {
+	background-color: rgb(210, 119, 8);
+	color: white;
+  }
+  
+  .App {
+	position: relative;
+	top: 0;
+	min-height: 100vh;
+  }
+  
+  main {
+	padding-bottom: 200px;
+  }
